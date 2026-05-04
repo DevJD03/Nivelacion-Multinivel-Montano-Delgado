@@ -1,0 +1,28 @@
+BUG BLOQUE 1 - CORRECCION DE TIPOS DE DATOS
+
+Problema 1:
+int vida = 100.5;
+
+Descripcion del error:
+El tipo int no puede almacenar valores decimales.
+100.5 es un numero de tipo double, por lo tanto genera error de tipo incompatible.
+
+Solucion:
+Cambiar el tipo de dato int por double.
+
+Correccion:
+double vida = 100.5;
+
+
+Problema 2:
+String nivel = 1;
+
+Descripcion del error:
+String almacena texto y no puede guardar un valor entero directamente.
+El valor 1 es de tipo int, por lo tanto genera incompatibilidad de tipos.
+
+Solucion:
+Cambiar el tipo de dato String por int.
+
+Correccion:
+int nivel = 1;
